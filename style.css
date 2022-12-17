@@ -1,0 +1,47 @@
+#game{
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+input[type="radio"] {
+    background-color: red;
+}
+
+#feedback-div{
+    padding-bottom: 5px;
+}
+
+#feedback-div > *{
+    text-align: center;
+    margin: auto;
+}
+
+#question-box > *{
+    margin: 1px 0;
+}
+
+#start{
+    text-align: center;
+}
+
+#start > *{
+    margin-top: 100px;
+    margin-left: 600px;
+    width: 600px;
+}
+
+@media all and (max-width: 500px) {
+    #start{
+        text-align: center;
+    }
+
+    #start > *{
+        margin: 0;
+        margin-top: 100px;
+        margin-left: 5vw;
+        width: 90vw;
+    }
+}
